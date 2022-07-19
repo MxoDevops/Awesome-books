@@ -63,8 +63,8 @@ document.querySelector('.container').addEventListener('click', (e) => {
 
   // remove from local storage
   const title = e.target.previousElementSibling.previousElementSibling.textContent.replace(
-    /[^a-z0-9]/gi,
-    '',
- );
+  /[^a-z0-9]/gi,
+  '',
+);
   BookStore.removeBook(title);
 });
