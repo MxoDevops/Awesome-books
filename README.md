@@ -1,56 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome Books
 
-> Description the project.
-
+> A web app where you can add & remove your favorite books.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JAVASCRIPT
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+-To clone the repo, copy this link
 
-
-To get a local copy up and running follow these simple example steps.
+- Then clone using git
 
 ### Prerequisites
 
+-GIT command line
+-Text editor/IDE
+-Web brower (chrome, edge etc)
+
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
+- Clone the project using git or download the ZIP
 
 ### Deployment
 
-
+[View-the-project-live-here]()
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/MxoDevops)
+- Twitter: [@twitterhandle](https://twitter.com/godecuy)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ThokozaniNgubane)
 
 ## 🤝 Contributing
 
@@ -64,9 +54,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The to microverse for the deishn
 
 ## 📝 License
 
