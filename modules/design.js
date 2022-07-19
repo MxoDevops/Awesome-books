@@ -1,16 +1,16 @@
 import BookStore from './store.js';
-// class UI
-export default class UI {
+// class design
+export default class design {
   // display books
   static displayBooks() {
     const books = BookStore.getBooks();
 
     books.forEach((book) => {
-      UI.addBookToUI(book);
+      design.addBookToUI(book);
     });
   }
 
-  // add book to UI
+  // add book
 
   static addBookToUI(book) {
     const container = document.querySelector('.container');

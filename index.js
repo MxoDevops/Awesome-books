@@ -20,14 +20,14 @@ navItems.addEventListener('click', (e) => {
   document.querySelector(`.section-${tab}`).classList.add('display-flex');
 });
 
-// date & time
+// date
 setInterval(() => {
   document.getElementById(
     'render-date'
   ).innerHTML = `${DateTime.now().toLocaleString(DateTime.DATETIME_MED)}`;
 }, 1000);
 
-// Event: Add Button
+//  Add Button
 document.querySelector('#form').addEventListener('submit', (e) => {
   // Prevent default submission
   e.preventDefault();
