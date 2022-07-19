@@ -23,7 +23,7 @@ navItems.addEventListener('click', (e) => {
 // date
 setInterval(() => {
   document.getElementById(
-    'render-date'
+    'render-date',
   ).innerHTML = `${DateTime.now().toLocaleString(DateTime.DATETIME_MED)}`;
 }, 1000);
 
@@ -62,10 +62,9 @@ document.querySelector('.container').addEventListener('click', (e) => {
   UI.removeBook(e.target);
 
   // remove from local storage
-  const title =
-    e.target.previousElementSibling.previousElementSibling.textContent.replace(
+  const title = e.target.previousElementSibling.previousElementSibling.textContent.replace(
       /[^a-z0-9]/gi,
-      ''
+      '',
     );
   BookStore.removeBook(title);
 });
